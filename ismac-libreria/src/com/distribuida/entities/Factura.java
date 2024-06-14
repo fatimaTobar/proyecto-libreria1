@@ -14,7 +14,7 @@ public class Factura {
 	//private int idCliente;
 	private Cliente cliente;
 	
-    private Factura() { }
+    private Factura(){ }
 
 
     public Factura(int idFactura, String numFactura, Date fecha, double totalNeto, double iva, double total) {
