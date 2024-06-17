@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.distribuida.entities.Cliente;
 
-public interface ClienteDAO {
+public interface ClienteDao {
 
 	//CRUD basico
 public List<Cliente> findAll();
